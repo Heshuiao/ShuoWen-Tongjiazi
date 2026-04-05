@@ -1,5 +1,3 @@
-# ShuoWen-Tongjiazi
-Official implementation and dataset for "ShuoWen: A Knowledge-Driven Framework for Classical Chinese Phonetic Loan Extraction".
 # ShuoWen Dataset Collection
 
 ## 1. Project Overview
@@ -20,14 +18,3 @@ The data is organized into four primary directories:
 - **Encoding**: UTF-8
 - **Status**: Pre-processed and ready for training.
 - **Note**: The preprocessing scripts and training pipelines (Python) are currently private and will be released in future updates.
-
-## 4. Usage
-To use this dataset in your Python environment:
-```python
-# Example: Loading ShuoWen integrated data
-import pandas as pd
-import json
-
-# Replace with actual file path
-data_path = "data/ShuoWen/your_file_name.json"
-# data = pd.read_csv(data_path)
